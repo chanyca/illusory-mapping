@@ -1,0 +1,691 @@
+,subject_id,location,strategy,group,model,parameter,value,parameter_type
+0,LV001,raw,Averaging,Low Vision,bci,pcommon,0.829698707,Prior
+1,LV001,visible,Averaging,Low Vision,bci,pcommon,0.919854498,Prior
+2,LV001,invisible,Averaging,Low Vision,fs,pcommon,0.0,Prior
+3,LV001,5,Averaging,Low Vision,bci,pcommon,0.900168983,Prior
+4,LV001,10,Averaging,Low Vision,fs,pcommon,0.0,Prior
+5,LV001,15,Averaging,Low Vision,fs,pcommon,0.0,Prior
+6,LV002,raw,Averaging,Low Vision,mle,pcommon,1.0,Prior
+7,LV002,visible,Averaging,Low Vision,mle,pcommon,1.0,Prior
+8,LV002,invisible,Averaging,Low Vision,mle,pcommon,1.0,Prior
+9,LV002,5,Averaging,Low Vision,mle,pcommon,1.0,Prior
+10,LV002,10,Averaging,Low Vision,mle,pcommon,1.0,Prior
+11,LV002,15,Averaging,Low Vision,mle,pcommon,1.0,Prior
+12,LV003,raw,Averaging,Low Vision,mle,pcommon,1.0,Prior
+13,LV003,visible,Averaging,Low Vision,mle,pcommon,1.0,Prior
+14,LV003,invisible,Averaging,Low Vision,mle,pcommon,1.0,Prior
+15,LV003,5,Averaging,Low Vision,mle,pcommon,1.0,Prior
+16,LV003,10,Averaging,Low Vision,mle,pcommon,1.0,Prior
+17,LV003,15,Averaging,Low Vision,mle,pcommon,1.0,Prior
+18,LV005,raw,Averaging,Low Vision,bci,pcommon,0.989008337,Prior
+19,LV005,visible,Averaging,Low Vision,mle,pcommon,1.0,Prior
+20,LV005,invisible,Averaging,Low Vision,bci,pcommon,0.973429795,Prior
+21,LV005,5,Averaging,Low Vision,mle,pcommon,1.0,Prior
+22,LV005,10,Averaging,Low Vision,mle,pcommon,1.0,Prior
+23,LV005,15,Averaging,Low Vision,mle,pcommon,1.0,Prior
+24,LV007,raw,Matching,Low Vision,bci,pcommon,0.858360455,Prior
+25,LV007,visible,Matching,Low Vision,bci,pcommon,0.858360455,Prior
+26,LV007,5,Matching,Low Vision,bci,pcommon,0.835215031,Prior
+27,LV007,10,Averaging,Low Vision,bci,pcommon,0.974497506,Prior
+28,LV007,15,Matching,Low Vision,bci,pcommon,0.781873921,Prior
+29,LV008,raw,Averaging,Low Vision,bci,pcommon,0.603423954,Prior
+30,LV008,visible,Averaging,Low Vision,bci,pcommon,0.73927518,Prior
+31,LV008,invisible,Averaging,Low Vision,fs,pcommon,0.0,Prior
+32,LV008,5,Averaging,Low Vision,fs,pcommon,0.0,Prior
+33,LV008,10,Averaging,Low Vision,fs,pcommon,0.0,Prior
+34,LV008,15,Averaging,Low Vision,fs,pcommon,0.0,Prior
+35,LV009,raw,Averaging,Low Vision,fs,pcommon,0.0,Prior
+36,LV009,visible,Averaging,Low Vision,bci,pcommon,0.287201878,Prior
+37,LV009,invisible,Averaging,Low Vision,fs,pcommon,0.0,Prior
+38,LV009,5,Averaging,Low Vision,fs,pcommon,0.0,Prior
+39,LV009,10,Averaging,Low Vision,fs,pcommon,0.0,Prior
+40,LV009,15,Averaging,Low Vision,fs,pcommon,0.0,Prior
+41,LV011,raw,Matching,Low Vision,bci,pcommon,0.046923042,Prior
+42,LV011,visible,Averaging,Low Vision,bci,pcommon,0.371364426,Prior
+43,LV011,invisible,Selection,Low Vision,bci,pcommon,0.235750202,Prior
+44,LV011,5,Matching,Low Vision,bci,pcommon,0.080519961,Prior
+45,LV011,10,Selection,Low Vision,bci,pcommon,0.035261067,Prior
+46,LV011,15,Matching,Low Vision,bci,pcommon,0.078441305,Prior
+47,LV012,raw,Averaging,Low Vision,mle,pcommon,1.0,Prior
+48,LV012,invisible,Averaging,Low Vision,mle,pcommon,1.0,Prior
+49,LV012,5,Averaging,Low Vision,mle,pcommon,1.0,Prior
+50,LV012,10,Averaging,Low Vision,bci,pcommon,0.960365526,Prior
+51,LV012,15,Averaging,Low Vision,mle,pcommon,1.0,Prior
+52,LV013,raw,Averaging,Low Vision,bci,pcommon,0.813381627,Prior
+53,LV013,invisible,Averaging,Low Vision,bci,pcommon,0.813381627,Prior
+54,LV013,5,Averaging,Low Vision,bci,pcommon,0.919454145,Prior
+55,LV013,10,Averaging,Low Vision,fs,pcommon,0.0,Prior
+56,LV013,15,Averaging,Low Vision,bci,pcommon,0.891359611,Prior
+57,LV015,raw,Averaging,Low Vision,fs,pcommon,0.0,Prior
+58,LV015,visible,Averaging,Low Vision,fs,pcommon,0.0,Prior
+59,LV015,invisible,Averaging,Low Vision,fs,pcommon,0.0,Prior
+60,LV015,5,Averaging,Low Vision,fs,pcommon,0.0,Prior
+61,LV015,10,Averaging,Low Vision,fs,pcommon,0.0,Prior
+62,LV015,15,Averaging,Low Vision,fs,pcommon,0.0,Prior
+63,LV016,raw,Averaging,Low Vision,fs,pcommon,0.0,Prior
+64,LV016,visible,Selection,Low Vision,bci,pcommon,0.461851308,Prior
+65,LV016,invisible,Averaging,Low Vision,fs,pcommon,0.0,Prior
+66,LV016,5,Averaging,Low Vision,fs,pcommon,0.0,Prior
+67,LV016,10,Averaging,Low Vision,fs,pcommon,0.0,Prior
+68,LV016,15,Averaging,Low Vision,fs,pcommon,0.0,Prior
+69,LV017,raw,Averaging,Low Vision,fs,pcommon,0.0,Prior
+70,LV017,visible,Averaging,Low Vision,fs,pcommon,0.0,Prior
+71,LV017,5,Averaging,Low Vision,fs,pcommon,0.0,Prior
+72,LV017,10,Averaging,Low Vision,fs,pcommon,0.0,Prior
+73,LV017,15,Averaging,Low Vision,fs,pcommon,0.0,Prior
+74,LV018,raw,Averaging,Low Vision,bci,pcommon,0.994492668,Prior
+75,LV018,visible,Averaging,Low Vision,bci,pcommon,0.994492668,Prior
+76,LV018,5,Averaging,Low Vision,mle,pcommon,1.0,Prior
+77,LV018,10,Averaging,Low Vision,mle,pcommon,1.0,Prior
+78,LV018,15,Averaging,Low Vision,mle,pcommon,1.0,Prior
+79,LV019,raw,Averaging,Low Vision,mle,pcommon,1.0,Prior
+80,LV019,visible,Averaging,Low Vision,mle,pcommon,1.0,Prior
+81,LV019,invisible,Averaging,Low Vision,mle,pcommon,1.0,Prior
+82,LV019,5,Averaging,Low Vision,mle,pcommon,1.0,Prior
+83,LV019,10,Averaging,Low Vision,mle,pcommon,1.0,Prior
+84,LV019,15,Averaging,Low Vision,mle,pcommon,1.0,Prior
+85,LV020,raw,Matching,Low Vision,bci,pcommon,0.880059995,Prior
+86,LV020,visible,Matching,Low Vision,bci,pcommon,0.941400222,Prior
+87,LV020,5,Averaging,Low Vision,mle,pcommon,1.0,Prior
+88,LV020,10,Averaging,Low Vision,mle,pcommon,1.0,Prior
+89,LV020,15,Matching,Low Vision,bci,pcommon,0.88135996,Prior
+90,LV021,raw,Averaging,Low Vision,fs,pcommon,0.0,Prior
+91,LV021,visible,Selection,Low Vision,bci,pcommon,0.282996599,Prior
+92,LV021,invisible,Averaging,Low Vision,fs,pcommon,0.0,Prior
+93,LV021,5,Averaging,Low Vision,fs,pcommon,0.0,Prior
+94,LV021,10,Averaging,Low Vision,fs,pcommon,0.0,Prior
+95,LV021,15,Averaging,Low Vision,fs,pcommon,0.0,Prior
+96,LV022,raw,Averaging,Low Vision,fs,pcommon,0.0,Prior
+97,LV022,visible,Selection,Low Vision,bci,pcommon,0.193834825,Prior
+98,LV022,invisible,Averaging,Low Vision,fs,pcommon,0.0,Prior
+99,LV022,5,Averaging,Low Vision,fs,pcommon,0.0,Prior
+100,LV022,10,Averaging,Low Vision,fs,pcommon,0.0,Prior
+101,LV022,15,Averaging,Low Vision,fs,pcommon,0.0,Prior
+102,LV023,raw,Matching,Low Vision,bci,pcommon,0.838550524,Prior
+103,LV023,visible,Averaging,Low Vision,mle,pcommon,1.0,Prior
+104,LV023,invisible,Matching,Low Vision,bci,pcommon,0.763841299,Prior
+105,LV023,5,Averaging,Low Vision,mle,pcommon,1.0,Prior
+106,LV023,10,Averaging,Low Vision,bci,pcommon,0.688988408,Prior
+107,LV023,15,Averaging,Low Vision,mle,pcommon,1.0,Prior
+108,LV024,raw,Matching,Low Vision,bci,pcommon,0.488107033,Prior
+109,LV024,visible,Matching,Low Vision,bci,pcommon,0.391881709,Prior
+110,LV024,invisible,Averaging,Low Vision,bci,pcommon,0.849696253,Prior
+111,LV024,5,Matching,Low Vision,bci,pcommon,0.476744049,Prior
+112,LV024,10,Matching,Low Vision,bci,pcommon,0.391365719,Prior
+113,LV024,15,Averaging,Low Vision,bci,pcommon,0.647278317,Prior
+114,LV025,raw,Averaging,Low Vision,fs,pcommon,0.0,Prior
+115,LV025,visible,Averaging,Low Vision,bci,pcommon,0.001756416,Prior
+116,LV025,invisible,Averaging,Low Vision,fs,pcommon,0.0,Prior
+117,LV025,5,Averaging,Low Vision,fs,pcommon,0.0,Prior
+118,LV025,10,Averaging,Low Vision,fs,pcommon,0.0,Prior
+119,LV025,15,Averaging,Low Vision,fs,pcommon,0.0,Prior
+120,SV103,raw,Averaging,Control,bci,pcommon,0.973524882,Prior
+121,SV103,visible,Averaging,Control,bci,pcommon,0.978064409,Prior
+122,SV103,invisible,Averaging,Control,mle,pcommon,1.0,Prior
+123,SV103,5,Averaging,Control,bci,pcommon,0.986889152,Prior
+124,SV103,10,Averaging,Control,bci,pcommon,0.966786361,Prior
+125,SV103,15,Averaging,Control,bci,pcommon,0.943936829,Prior
+126,SV110,raw,Averaging,Control,bci,pcommon,0.993896534,Prior
+127,SV110,visible,Averaging,Control,bci,pcommon,0.993896534,Prior
+128,SV110,5,Averaging,Control,mle,pcommon,1.0,Prior
+129,SV110,10,Averaging,Control,mle,pcommon,1.0,Prior
+130,SV110,15,Averaging,Control,mle,pcommon,1.0,Prior
+131,SV111,raw,Averaging,Control,mle,pcommon,1.0,Prior
+132,SV111,visible,Averaging,Control,mle,pcommon,1.0,Prior
+133,SV111,invisible,Averaging,Control,mle,pcommon,1.0,Prior
+134,SV111,5,Averaging,Control,mle,pcommon,1.0,Prior
+135,SV111,10,Matching,Control,bci,pcommon,0.884555684,Prior
+136,SV111,15,Averaging,Control,mle,pcommon,1.0,Prior
+137,SV113,raw,Averaging,Control,mle,pcommon,1.0,Prior
+138,SV113,visible,Averaging,Control,mle,pcommon,1.0,Prior
+139,SV113,invisible,Averaging,Control,mle,pcommon,1.0,Prior
+140,SV113,5,Averaging,Control,mle,pcommon,1.0,Prior
+141,SV113,10,Averaging,Control,mle,pcommon,1.0,Prior
+142,SV113,15,Averaging,Control,mle,pcommon,1.0,Prior
+143,SV119,raw,Averaging,Control,bci,pcommon,0.862759982,Prior
+144,SV119,visible,Averaging,Control,bci,pcommon,0.834716099,Prior
+145,SV119,invisible,Averaging,Control,mle,pcommon,1.0,Prior
+146,SV119,5,Averaging,Control,bci,pcommon,0.877343262,Prior
+147,SV119,10,Averaging,Control,bci,pcommon,0.820488565,Prior
+148,SV119,15,Averaging,Control,bci,pcommon,0.875961174,Prior
+149,SV201,raw,Averaging,Control,bci,pcommon,0.9869717072399572,Prior
+150,SV201,visible,Averaging,Control,bci,pcommon,0.9869717072399572,Prior
+151,SV201,5,Averaging,Control,bci,pcommon,0.9821192833729848,Prior
+152,SV201,10,Averaging,Control,bci,pcommon,0.9821192833729848,Prior
+153,SV201,15,Averaging,Control,mle,pcommon,1.0,Prior
+154,SV202,raw,Averaging,Control,fs,pcommon,0.0,Prior
+155,SV202,visible,Averaging,Control,fs,pcommon,0.0,Prior
+156,SV202,5,Averaging,Control,fs,pcommon,0.0,Prior
+157,SV202,10,Averaging,Control,fs,pcommon,0.0,Prior
+158,SV202,15,Averaging,Control,fs,pcommon,0.0,Prior
+159,SV203,raw,Averaging,Control,mle,pcommon,1.0,Prior
+160,SV203,visible,Averaging,Control,mle,pcommon,1.0,Prior
+161,SV203,5,Averaging,Control,mle,pcommon,1.0,Prior
+162,SV203,10,Averaging,Control,mle,pcommon,1.0,Prior
+163,SV203,15,Averaging,Control,mle,pcommon,1.0,Prior
+164,SV204,raw,Averaging,Control,mle,pcommon,1.0,Prior
+165,SV204,visible,Averaging,Control,mle,pcommon,1.0,Prior
+166,SV204,5,Averaging,Control,mle,pcommon,1.0,Prior
+167,SV204,10,Averaging,Control,mle,pcommon,1.0,Prior
+168,SV204,15,Averaging,Control,mle,pcommon,1.0,Prior
+169,SV205,raw,Averaging,Control,bci,pcommon,0.7614567597503187,Prior
+170,SV205,visible,Averaging,Control,bci,pcommon,0.7614567597503187,Prior
+171,SV205,5,Averaging,Control,fs,pcommon,0.0,Prior
+172,SV205,10,Averaging,Control,bci,pcommon,0.7638123248057644,Prior
+173,SV205,15,Averaging,Control,bci,pcommon,0.7820843561868394,Prior
+174,SV206,raw,Matching,Control,bci,pcommon,0.3184384276110981,Prior
+175,SV206,visible,Matching,Control,bci,pcommon,0.3184384276110981,Prior
+176,SV206,5,Matching,Control,bci,pcommon,0.3437430293716347,Prior
+177,SV206,10,Averaging,Control,fs,pcommon,0.0,Prior
+178,SV206,15,Matching,Control,bci,pcommon,0.3913167394800348,Prior
+179,SV207,raw,Averaging,Control,fs,pcommon,0.0,Prior
+180,SV207,visible,Averaging,Control,fs,pcommon,0.0,Prior
+181,SV207,5,Averaging,Control,fs,pcommon,0.0,Prior
+182,SV207,10,Averaging,Control,fs,pcommon,0.0,Prior
+183,SV207,15,Averaging,Control,fs,pcommon,0.0,Prior
+184,SV208,raw,Averaging,Control,mle,pcommon,1.0,Prior
+185,SV208,visible,Averaging,Control,mle,pcommon,1.0,Prior
+186,SV208,5,Averaging,Control,mle,pcommon,1.0,Prior
+187,SV208,10,Averaging,Control,mle,pcommon,1.0,Prior
+188,SV208,15,Averaging,Control,mle,pcommon,1.0,Prior
+189,SV209,raw,Averaging,Control,mle,pcommon,1.0,Prior
+190,SV209,visible,Averaging,Control,mle,pcommon,1.0,Prior
+191,SV209,5,Averaging,Control,mle,pcommon,1.0,Prior
+192,SV209,10,Averaging,Control,mle,pcommon,1.0,Prior
+193,SV209,15,Averaging,Control,mle,pcommon,1.0,Prior
+194,SV210,raw,Averaging,Control,mle,pcommon,1.0,Prior
+195,SV210,visible,Averaging,Control,mle,pcommon,1.0,Prior
+196,SV210,5,Averaging,Control,mle,pcommon,1.0,Prior
+197,SV210,10,Averaging,Control,mle,pcommon,1.0,Prior
+198,SV210,15,Averaging,Control,mle,pcommon,1.0,Prior
+199,SV211,raw,Averaging,Control,bci,pcommon,0.93812349164008,Prior
+200,SV211,visible,Averaging,Control,bci,pcommon,0.93812349164008,Prior
+201,SV211,5,Averaging,Control,bci,pcommon,0.9273531771913092,Prior
+202,SV211,10,Averaging,Control,bci,pcommon,0.9442716587909982,Prior
+203,SV211,15,Averaging,Control,bci,pcommon,0.9517770649467396,Prior
+204,SV212,raw,Averaging,Control,fs,pcommon,0.0,Prior
+205,SV212,visible,Averaging,Control,fs,pcommon,0.0,Prior
+206,SV212,5,Averaging,Control,fs,pcommon,0.0,Prior
+207,SV212,10,Averaging,Control,fs,pcommon,0.0,Prior
+208,SV212,15,Averaging,Control,fs,pcommon,0.0,Prior
+209,SV213,raw,Averaging,Control,mle,pcommon,1.0,Prior
+210,SV213,visible,Averaging,Control,mle,pcommon,1.0,Prior
+211,SV213,5,Averaging,Control,mle,pcommon,1.0,Prior
+212,SV213,10,Averaging,Control,mle,pcommon,1.0,Prior
+213,SV213,15,Averaging,Control,mle,pcommon,1.0,Prior
+214,SV214,raw,Averaging,Control,fs,pcommon,0.0,Prior
+215,SV214,visible,Averaging,Control,fs,pcommon,0.0,Prior
+216,SV214,5,Averaging,Control,fs,pcommon,0.0,Prior
+217,SV214,10,Averaging,Control,fs,pcommon,0.0,Prior
+218,SV214,15,Averaging,Control,fs,pcommon,0.0,Prior
+219,SV215,raw,Averaging,Control,bci,pcommon,0.997329818846726,Prior
+220,SV215,visible,Averaging,Control,mle,pcommon,1.0,Prior
+221,SV215,invisible,Averaging,Control,mle,pcommon,1.0,Prior
+222,SV215,5,Averaging,Control,mle,pcommon,1.0,Prior
+223,SV215,10,Averaging,Control,mle,pcommon,1.0,Prior
+224,SV215,15,Averaging,Control,mle,pcommon,1.0,Prior
+225,SV216,raw,Averaging,Control,bci,pcommon,0.9764972899971798,Prior
+226,SV216,visible,Averaging,Control,bci,pcommon,0.9764972899971798,Prior
+227,SV216,5,Averaging,Control,bci,pcommon,0.9703383156924352,Prior
+228,SV216,10,Averaging,Control,bci,pcommon,0.9568825098219362,Prior
+229,SV216,15,Averaging,Control,bci,pcommon,0.9669511757108544,Prior
+230,LV001,raw,Averaging,Low Vision,bci,sigma_p,0.814825675,Prior
+231,LV001,visible,Averaging,Low Vision,bci,sigma_p,0.73509471,Prior
+232,LV001,invisible,Averaging,Low Vision,fs,sigma_p,2.9507040427023288,Prior
+233,LV001,5,Averaging,Low Vision,bci,sigma_p,0.533670855,Prior
+234,LV001,10,Averaging,Low Vision,fs,sigma_p,2.951365447953545,Prior
+235,LV001,15,Averaging,Low Vision,fs,sigma_p,2.951365447953508,Prior
+236,LV002,raw,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+237,LV002,visible,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+238,LV002,invisible,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+239,LV002,5,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+240,LV002,10,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+241,LV002,15,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+242,LV003,raw,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+243,LV003,visible,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+244,LV003,invisible,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+245,LV003,5,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+246,LV003,10,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+247,LV003,15,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+248,LV005,raw,Averaging,Low Vision,bci,sigma_p,1.189510433,Prior
+249,LV005,visible,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+250,LV005,invisible,Averaging,Low Vision,bci,sigma_p,1.078778711,Prior
+251,LV005,5,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+252,LV005,10,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+253,LV005,15,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+254,LV007,raw,Matching,Low Vision,bci,sigma_p,1.235135618,Prior
+255,LV007,visible,Matching,Low Vision,bci,sigma_p,1.235135618,Prior
+256,LV007,5,Matching,Low Vision,bci,sigma_p,0.854562838,Prior
+257,LV007,10,Averaging,Low Vision,bci,sigma_p,1.833758372,Prior
+258,LV007,15,Matching,Low Vision,bci,sigma_p,1.213263639,Prior
+259,LV008,raw,Averaging,Low Vision,bci,sigma_p,0.409195094,Prior
+260,LV008,visible,Averaging,Low Vision,bci,sigma_p,0.627795764,Prior
+261,LV008,invisible,Averaging,Low Vision,fs,sigma_p,2.8424228170111605,Prior
+262,LV008,5,Averaging,Low Vision,fs,sigma_p,2.991164841784079,Prior
+263,LV008,10,Averaging,Low Vision,fs,sigma_p,2.969817337842059,Prior
+264,LV008,15,Averaging,Low Vision,fs,sigma_p,2.8423454944600226,Prior
+265,LV009,raw,Averaging,Low Vision,fs,sigma_p,2.992624809671502,Prior
+266,LV009,visible,Averaging,Low Vision,bci,sigma_p,1.778787693,Prior
+267,LV009,invisible,Averaging,Low Vision,fs,sigma_p,2.9960479777489573,Prior
+268,LV009,5,Averaging,Low Vision,fs,sigma_p,2.997981534072289,Prior
+269,LV009,10,Averaging,Low Vision,fs,sigma_p,2.9820544603556667,Prior
+270,LV009,15,Averaging,Low Vision,fs,sigma_p,2.997554748851147,Prior
+271,LV011,raw,Matching,Low Vision,bci,sigma_p,0.32746604,Prior
+272,LV011,visible,Averaging,Low Vision,bci,sigma_p,2.385953806,Prior
+273,LV011,invisible,Selection,Low Vision,bci,sigma_p,2.999422225,Prior
+274,LV011,5,Matching,Low Vision,bci,sigma_p,0.90860714,Prior
+275,LV011,10,Selection,Low Vision,bci,sigma_p,2.98795586,Prior
+276,LV011,15,Matching,Low Vision,bci,sigma_p,2.103520984,Prior
+277,LV012,raw,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+278,LV012,invisible,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+279,LV012,5,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+280,LV012,10,Averaging,Low Vision,bci,sigma_p,0.932305766,Prior
+281,LV012,15,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+282,LV013,raw,Averaging,Low Vision,bci,sigma_p,1.243166226,Prior
+283,LV013,invisible,Averaging,Low Vision,bci,sigma_p,1.243166226,Prior
+284,LV013,5,Averaging,Low Vision,bci,sigma_p,0.779291147,Prior
+285,LV013,10,Averaging,Low Vision,fs,sigma_p,2.964893767196604,Prior
+286,LV013,15,Averaging,Low Vision,bci,sigma_p,0.784257825,Prior
+287,LV015,raw,Averaging,Low Vision,fs,sigma_p,2.9901471084188165,Prior
+288,LV015,visible,Averaging,Low Vision,fs,sigma_p,2.974080623788997,Prior
+289,LV015,invisible,Averaging,Low Vision,fs,sigma_p,2.931629339201157,Prior
+290,LV015,5,Averaging,Low Vision,fs,sigma_p,2.993709138602167,Prior
+291,LV015,10,Averaging,Low Vision,fs,sigma_p,2.9918469393699256,Prior
+292,LV015,15,Averaging,Low Vision,fs,sigma_p,2.9516148432414813,Prior
+293,LV016,raw,Averaging,Low Vision,fs,sigma_p,2.849638296635452,Prior
+294,LV016,visible,Selection,Low Vision,bci,sigma_p,0.1000071,Prior
+295,LV016,invisible,Averaging,Low Vision,fs,sigma_p,2.8407239326814766,Prior
+296,LV016,5,Averaging,Low Vision,fs,sigma_p,2.978494812274068,Prior
+297,LV016,10,Averaging,Low Vision,fs,sigma_p,2.8434563585823542,Prior
+298,LV016,15,Averaging,Low Vision,fs,sigma_p,2.951365447953508,Prior
+299,LV017,raw,Averaging,Low Vision,fs,sigma_p,2.997482356590764,Prior
+300,LV017,visible,Averaging,Low Vision,fs,sigma_p,2.997482356590764,Prior
+301,LV017,5,Averaging,Low Vision,fs,sigma_p,2.946031057294046,Prior
+302,LV017,10,Averaging,Low Vision,fs,sigma_p,2.993709138602198,Prior
+303,LV017,15,Averaging,Low Vision,fs,sigma_p,2.993709138602198,Prior
+304,LV018,raw,Averaging,Low Vision,bci,sigma_p,1.879651572,Prior
+305,LV018,visible,Averaging,Low Vision,bci,sigma_p,1.879651572,Prior
+306,LV018,5,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+307,LV018,10,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+308,LV018,15,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+309,LV019,raw,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+310,LV019,visible,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+311,LV019,invisible,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+312,LV019,5,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+313,LV019,10,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+314,LV019,15,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+315,LV020,raw,Matching,Low Vision,bci,sigma_p,0.116709465,Prior
+316,LV020,visible,Matching,Low Vision,bci,sigma_p,0.108558075,Prior
+317,LV020,5,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+318,LV020,10,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+319,LV020,15,Matching,Low Vision,bci,sigma_p,0.154129029,Prior
+320,LV021,raw,Averaging,Low Vision,fs,sigma_p,2.986771408398756,Prior
+321,LV021,visible,Selection,Low Vision,bci,sigma_p,1.227002975,Prior
+322,LV021,invisible,Averaging,Low Vision,fs,sigma_p,2.843456358582967,Prior
+323,LV021,5,Averaging,Low Vision,fs,sigma_p,2.946031057294046,Prior
+324,LV021,10,Averaging,Low Vision,fs,sigma_p,2.998581775701108,Prior
+325,LV021,15,Averaging,Low Vision,fs,sigma_p,2.997142585164337,Prior
+326,LV022,raw,Averaging,Low Vision,fs,sigma_p,2.998310656346517,Prior
+327,LV022,visible,Selection,Low Vision,bci,sigma_p,2.807706357,Prior
+328,LV022,invisible,Averaging,Low Vision,fs,sigma_p,2.843323382156539,Prior
+329,LV022,5,Averaging,Low Vision,fs,sigma_p,2.998716192509725,Prior
+330,LV022,10,Averaging,Low Vision,fs,sigma_p,2.9410202971827086,Prior
+331,LV022,15,Averaging,Low Vision,fs,sigma_p,2.9876793956640872,Prior
+332,LV023,raw,Matching,Low Vision,bci,sigma_p,2.749377842,Prior
+333,LV023,visible,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+334,LV023,invisible,Matching,Low Vision,bci,sigma_p,1.929695746,Prior
+335,LV023,5,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+336,LV023,10,Averaging,Low Vision,bci,sigma_p,2.430855749,Prior
+337,LV023,15,Averaging,Low Vision,mle,sigma_p,4000.0,Prior
+338,LV024,raw,Matching,Low Vision,bci,sigma_p,0.241326978,Prior
+339,LV024,visible,Matching,Low Vision,bci,sigma_p,2.575855256,Prior
+340,LV024,invisible,Averaging,Low Vision,bci,sigma_p,1.350603669,Prior
+341,LV024,5,Matching,Low Vision,bci,sigma_p,0.182322064,Prior
+342,LV024,10,Matching,Low Vision,bci,sigma_p,0.122127587,Prior
+343,LV024,15,Averaging,Low Vision,bci,sigma_p,2.862846338,Prior
+344,LV025,raw,Averaging,Low Vision,fs,sigma_p,2.992827378249304,Prior
+345,LV025,visible,Averaging,Low Vision,bci,sigma_p,0.783545573,Prior
+346,LV025,invisible,Averaging,Low Vision,fs,sigma_p,2.840708431829799,Prior
+347,LV025,5,Averaging,Low Vision,fs,sigma_p,2.969276948722014,Prior
+348,LV025,10,Averaging,Low Vision,fs,sigma_p,2.978261898366745,Prior
+349,LV025,15,Averaging,Low Vision,fs,sigma_p,2.993309964822436,Prior
+350,SV103,raw,Averaging,Control,bci,sigma_p,2.021690603,Prior
+351,SV103,visible,Averaging,Control,bci,sigma_p,1.512593287,Prior
+352,SV103,invisible,Averaging,Control,mle,sigma_p,4000.0,Prior
+353,SV103,5,Averaging,Control,bci,sigma_p,0.800015303,Prior
+354,SV103,10,Averaging,Control,bci,sigma_p,2.620922553,Prior
+355,SV103,15,Averaging,Control,bci,sigma_p,0.605845375,Prior
+356,SV110,raw,Averaging,Control,bci,sigma_p,1.515560974,Prior
+357,SV110,visible,Averaging,Control,bci,sigma_p,1.515560974,Prior
+358,SV110,5,Averaging,Control,mle,sigma_p,4000.0,Prior
+359,SV110,10,Averaging,Control,mle,sigma_p,4000.0,Prior
+360,SV110,15,Averaging,Control,mle,sigma_p,4000.0,Prior
+361,SV111,raw,Averaging,Control,mle,sigma_p,4000.0,Prior
+362,SV111,visible,Averaging,Control,mle,sigma_p,4000.0,Prior
+363,SV111,invisible,Averaging,Control,mle,sigma_p,4000.0,Prior
+364,SV111,5,Averaging,Control,mle,sigma_p,4000.0,Prior
+365,SV111,10,Matching,Control,bci,sigma_p,0.106692565,Prior
+366,SV111,15,Averaging,Control,mle,sigma_p,4000.0,Prior
+367,SV113,raw,Averaging,Control,mle,sigma_p,4000.0,Prior
+368,SV113,visible,Averaging,Control,mle,sigma_p,4000.0,Prior
+369,SV113,invisible,Averaging,Control,mle,sigma_p,4000.0,Prior
+370,SV113,5,Averaging,Control,mle,sigma_p,4000.0,Prior
+371,SV113,10,Averaging,Control,mle,sigma_p,4000.0,Prior
+372,SV113,15,Averaging,Control,mle,sigma_p,4000.0,Prior
+373,SV119,raw,Averaging,Control,bci,sigma_p,0.492851947,Prior
+374,SV119,visible,Averaging,Control,bci,sigma_p,0.827798828,Prior
+375,SV119,invisible,Averaging,Control,mle,sigma_p,4000.0,Prior
+376,SV119,5,Averaging,Control,bci,sigma_p,1.299363959,Prior
+377,SV119,10,Averaging,Control,bci,sigma_p,0.883564794,Prior
+378,SV119,15,Averaging,Control,bci,sigma_p,1.125235312,Prior
+379,SV201,raw,Averaging,Control,bci,sigma_p,1.356692472748268,Prior
+380,SV201,visible,Averaging,Control,bci,sigma_p,1.356692472748268,Prior
+381,SV201,5,Averaging,Control,bci,sigma_p,2.286726295185374,Prior
+382,SV201,10,Averaging,Control,bci,sigma_p,2.286726295185374,Prior
+383,SV201,15,Averaging,Control,mle,sigma_p,4000.0,Prior
+384,SV202,raw,Averaging,Control,fs,sigma_p,2.9460259750322737,Prior
+385,SV202,visible,Averaging,Control,fs,sigma_p,2.9460259750322737,Prior
+386,SV202,5,Averaging,Control,fs,sigma_p,2.993709138602396,Prior
+387,SV202,10,Averaging,Control,fs,sigma_p,2.946015785949826,Prior
+388,SV202,15,Averaging,Control,fs,sigma_p,2.94601578594982,Prior
+389,SV203,raw,Averaging,Control,mle,sigma_p,4000.0,Prior
+390,SV203,visible,Averaging,Control,mle,sigma_p,4000.0,Prior
+391,SV203,5,Averaging,Control,mle,sigma_p,4000.0,Prior
+392,SV203,10,Averaging,Control,mle,sigma_p,4000.0,Prior
+393,SV203,15,Averaging,Control,mle,sigma_p,4000.0,Prior
+394,SV204,raw,Averaging,Control,mle,sigma_p,4000.0,Prior
+395,SV204,visible,Averaging,Control,mle,sigma_p,4000.0,Prior
+396,SV204,5,Averaging,Control,mle,sigma_p,4000.0,Prior
+397,SV204,10,Averaging,Control,mle,sigma_p,4000.0,Prior
+398,SV204,15,Averaging,Control,mle,sigma_p,4000.0,Prior
+399,SV205,raw,Averaging,Control,bci,sigma_p,0.7830690420992921,Prior
+400,SV205,visible,Averaging,Control,bci,sigma_p,0.7830690420992921,Prior
+401,SV205,5,Averaging,Control,fs,sigma_p,2.9827301216805484,Prior
+402,SV205,10,Averaging,Control,bci,sigma_p,0.8154702912193812,Prior
+403,SV205,15,Averaging,Control,bci,sigma_p,0.6862494784581373,Prior
+404,SV206,raw,Matching,Control,bci,sigma_p,0.1854812595325488,Prior
+405,SV206,visible,Matching,Control,bci,sigma_p,0.1854812595325488,Prior
+406,SV206,5,Matching,Control,bci,sigma_p,0.1183188384767073,Prior
+407,SV206,10,Averaging,Control,fs,sigma_p,2.5493045981757074,Prior
+408,SV206,15,Matching,Control,bci,sigma_p,2.131417385566968,Prior
+409,SV207,raw,Averaging,Control,fs,sigma_p,2.9917189094745007,Prior
+410,SV207,visible,Averaging,Control,fs,sigma_p,2.9917189094745007,Prior
+411,SV207,5,Averaging,Control,fs,sigma_p,2.8345850900841354,Prior
+412,SV207,10,Averaging,Control,fs,sigma_p,2.9794332576554914,Prior
+413,SV207,15,Averaging,Control,fs,sigma_p,2.9741435611885083,Prior
+414,SV208,raw,Averaging,Control,mle,sigma_p,4000.0,Prior
+415,SV208,visible,Averaging,Control,mle,sigma_p,4000.0,Prior
+416,SV208,5,Averaging,Control,mle,sigma_p,4000.0,Prior
+417,SV208,10,Averaging,Control,mle,sigma_p,4000.0,Prior
+418,SV208,15,Averaging,Control,mle,sigma_p,4000.0,Prior
+419,SV209,raw,Averaging,Control,mle,sigma_p,4000.0,Prior
+420,SV209,visible,Averaging,Control,mle,sigma_p,4000.0,Prior
+421,SV209,5,Averaging,Control,mle,sigma_p,4000.0,Prior
+422,SV209,10,Averaging,Control,mle,sigma_p,4000.0,Prior
+423,SV209,15,Averaging,Control,mle,sigma_p,4000.0,Prior
+424,SV210,raw,Averaging,Control,mle,sigma_p,4000.0,Prior
+425,SV210,visible,Averaging,Control,mle,sigma_p,4000.0,Prior
+426,SV210,5,Averaging,Control,mle,sigma_p,4000.0,Prior
+427,SV210,10,Averaging,Control,mle,sigma_p,4000.0,Prior
+428,SV210,15,Averaging,Control,mle,sigma_p,4000.0,Prior
+429,SV211,raw,Averaging,Control,bci,sigma_p,0.6875498359295921,Prior
+430,SV211,visible,Averaging,Control,bci,sigma_p,0.6875498359295921,Prior
+431,SV211,5,Averaging,Control,bci,sigma_p,0.9730222966943572,Prior
+432,SV211,10,Averaging,Control,bci,sigma_p,0.6733824135162284,Prior
+433,SV211,15,Averaging,Control,bci,sigma_p,0.7848169685583166,Prior
+434,SV212,raw,Averaging,Control,fs,sigma_p,2.990570586226221,Prior
+435,SV212,visible,Averaging,Control,fs,sigma_p,2.990570586226221,Prior
+436,SV212,5,Averaging,Control,fs,sigma_p,2.9624392234739934,Prior
+437,SV212,10,Averaging,Control,fs,sigma_p,2.9985965883958867,Prior
+438,SV212,15,Averaging,Control,fs,sigma_p,2.963204753620394,Prior
+439,SV213,raw,Averaging,Control,mle,sigma_p,4000.0,Prior
+440,SV213,visible,Averaging,Control,mle,sigma_p,4000.0,Prior
+441,SV213,5,Averaging,Control,mle,sigma_p,4000.0,Prior
+442,SV213,10,Averaging,Control,mle,sigma_p,4000.0,Prior
+443,SV213,15,Averaging,Control,mle,sigma_p,4000.0,Prior
+444,SV214,raw,Averaging,Control,fs,sigma_p,2.9978723966319003,Prior
+445,SV214,visible,Averaging,Control,fs,sigma_p,2.9978723966319003,Prior
+446,SV214,5,Averaging,Control,fs,sigma_p,2.9980037736676404,Prior
+447,SV214,10,Averaging,Control,fs,sigma_p,2.9992522888502204,Prior
+448,SV214,15,Averaging,Control,fs,sigma_p,2.973606401203371,Prior
+449,SV215,raw,Averaging,Control,bci,sigma_p,1.2258417364113867,Prior
+450,SV215,visible,Averaging,Control,mle,sigma_p,4000.0,Prior
+451,SV215,invisible,Averaging,Control,mle,sigma_p,4000.0,Prior
+452,SV215,5,Averaging,Control,mle,sigma_p,4000.0,Prior
+453,SV215,10,Averaging,Control,mle,sigma_p,4000.0,Prior
+454,SV215,15,Averaging,Control,mle,sigma_p,4000.0,Prior
+455,SV216,raw,Averaging,Control,bci,sigma_p,0.7880051755259521,Prior
+456,SV216,visible,Averaging,Control,bci,sigma_p,0.7880051755259521,Prior
+457,SV216,5,Averaging,Control,bci,sigma_p,0.8832646516745635,Prior
+458,SV216,10,Averaging,Control,bci,sigma_p,1.8919205767699403,Prior
+459,SV216,15,Averaging,Control,bci,sigma_p,0.8254177931208806,Prior
+460,LV001,raw,Averaging,Low Vision,bci,sigma_v,0.323588417,Visual
+461,LV001,visible,Averaging,Low Vision,bci,sigma_v,0.281996628,Visual
+462,LV001,invisible,Averaging,Low Vision,fs,sigma_v,0.5859674321414169,Visual
+463,LV001,5,Averaging,Low Vision,bci,sigma_v,0.293420239,Visual
+464,LV001,10,Averaging,Low Vision,fs,sigma_v,0.1278997181944784,Visual
+465,LV001,15,Averaging,Low Vision,fs,sigma_v,0.1278997181945101,Visual
+466,LV002,raw,Averaging,Low Vision,mle,sigma_v,0.606008652,Visual
+467,LV002,visible,Averaging,Low Vision,mle,sigma_v,0.557377262,Visual
+468,LV002,invisible,Averaging,Low Vision,mle,sigma_v,0.796821851,Visual
+469,LV002,5,Averaging,Low Vision,mle,sigma_v,0.68282947,Visual
+470,LV002,10,Averaging,Low Vision,mle,sigma_v,0.510403991,Visual
+471,LV002,15,Averaging,Low Vision,mle,sigma_v,0.562091049,Visual
+472,LV003,raw,Averaging,Low Vision,mle,sigma_v,0.389389067,Visual
+473,LV003,visible,Averaging,Low Vision,mle,sigma_v,0.367254222,Visual
+474,LV003,invisible,Averaging,Low Vision,mle,sigma_v,0.350660848,Visual
+475,LV003,5,Averaging,Low Vision,mle,sigma_v,0.361694084,Visual
+476,LV003,10,Averaging,Low Vision,mle,sigma_v,0.392884719,Visual
+477,LV003,15,Averaging,Low Vision,mle,sigma_v,0.38917407,Visual
+478,LV005,raw,Averaging,Low Vision,bci,sigma_v,0.389073843,Visual
+479,LV005,visible,Averaging,Low Vision,mle,sigma_v,0.291577299,Visual
+480,LV005,invisible,Averaging,Low Vision,bci,sigma_v,0.439160165,Visual
+481,LV005,5,Averaging,Low Vision,mle,sigma_v,0.305090125,Visual
+482,LV005,10,Averaging,Low Vision,mle,sigma_v,0.298845303,Visual
+483,LV005,15,Averaging,Low Vision,mle,sigma_v,0.280223916,Visual
+484,LV007,raw,Matching,Low Vision,bci,sigma_v,0.38822064,Visual
+485,LV007,visible,Matching,Low Vision,bci,sigma_v,0.38822064,Visual
+486,LV007,5,Matching,Low Vision,bci,sigma_v,0.389167971,Visual
+487,LV007,10,Averaging,Low Vision,bci,sigma_v,0.330504315,Visual
+488,LV007,15,Matching,Low Vision,bci,sigma_v,0.480952049,Visual
+489,LV008,raw,Averaging,Low Vision,bci,sigma_v,0.259267469,Visual
+490,LV008,visible,Averaging,Low Vision,bci,sigma_v,0.245959534,Visual
+491,LV008,invisible,Averaging,Low Vision,fs,sigma_v,0.1480376379122237,Visual
+492,LV008,5,Averaging,Low Vision,fs,sigma_v,0.2954174226162372,Visual
+493,LV008,10,Averaging,Low Vision,fs,sigma_v,0.2783635640498405,Visual
+494,LV008,15,Averaging,Low Vision,fs,sigma_v,0.1480710799554195,Visual
+495,LV009,raw,Averaging,Low Vision,fs,sigma_v,0.2314700594871928,Visual
+496,LV009,visible,Averaging,Low Vision,bci,sigma_v,0.207889744,Visual
+497,LV009,invisible,Averaging,Low Vision,fs,sigma_v,0.2505395930813942,Visual
+498,LV009,5,Averaging,Low Vision,fs,sigma_v,0.2322332053277949,Visual
+499,LV009,10,Averaging,Low Vision,fs,sigma_v,0.186792605226074,Visual
+500,LV009,15,Averaging,Low Vision,fs,sigma_v,0.2443421415131711,Visual
+501,LV011,raw,Matching,Low Vision,bci,sigma_v,2.989297483,Visual
+502,LV011,visible,Averaging,Low Vision,bci,sigma_v,2.885536426,Visual
+503,LV011,invisible,Selection,Low Vision,bci,sigma_v,2.998699545,Visual
+504,LV011,5,Matching,Low Vision,bci,sigma_v,2.989327013,Visual
+505,LV011,10,Selection,Low Vision,bci,sigma_v,2.995402078,Visual
+506,LV011,15,Matching,Low Vision,bci,sigma_v,2.970600867,Visual
+507,LV012,raw,Averaging,Low Vision,mle,sigma_v,0.394829416,Visual
+508,LV012,invisible,Averaging,Low Vision,mle,sigma_v,0.394829416,Visual
+509,LV012,5,Averaging,Low Vision,mle,sigma_v,0.496219748,Visual
+510,LV012,10,Averaging,Low Vision,bci,sigma_v,0.434517163,Visual
+511,LV012,15,Averaging,Low Vision,mle,sigma_v,0.949218075,Visual
+512,LV013,raw,Averaging,Low Vision,bci,sigma_v,0.35510612,Visual
+513,LV013,invisible,Averaging,Low Vision,bci,sigma_v,0.35510612,Visual
+514,LV013,5,Averaging,Low Vision,bci,sigma_v,0.436593257,Visual
+515,LV013,10,Averaging,Low Vision,fs,sigma_v,0.2791942114129657,Visual
+516,LV013,15,Averaging,Low Vision,bci,sigma_v,0.362820075,Visual
+517,LV015,raw,Averaging,Low Vision,fs,sigma_v,0.1569093266745479,Visual
+518,LV015,visible,Averaging,Low Vision,fs,sigma_v,0.1565161078658643,Visual
+519,LV015,invisible,Averaging,Low Vision,fs,sigma_v,0.1147316133319727,Visual
+520,LV015,5,Averaging,Low Vision,fs,sigma_v,0.1371280281837316,Visual
+521,LV015,10,Averaging,Low Vision,fs,sigma_v,0.1485869856151756,Visual
+522,LV015,15,Averaging,Low Vision,fs,sigma_v,0.1794587288246341,Visual
+523,LV016,raw,Averaging,Low Vision,fs,sigma_v,0.148410654685944,Visual
+524,LV016,visible,Selection,Low Vision,bci,sigma_v,0.119304473,Visual
+525,LV016,invisible,Averaging,Low Vision,fs,sigma_v,0.1486752630692197,Visual
+526,LV016,5,Averaging,Low Vision,fs,sigma_v,0.1517087579793222,Visual
+527,LV016,10,Averaging,Low Vision,fs,sigma_v,0.1473331485075746,Visual
+528,LV016,15,Averaging,Low Vision,fs,sigma_v,0.1278997181945101,Visual
+529,LV017,raw,Averaging,Low Vision,fs,sigma_v,0.133926241459803,Visual
+530,LV017,visible,Averaging,Low Vision,fs,sigma_v,0.133926241459803,Visual
+531,LV017,5,Averaging,Low Vision,fs,sigma_v,0.1177389179659629,Visual
+532,LV017,10,Averaging,Low Vision,fs,sigma_v,0.1371280281837243,Visual
+533,LV017,15,Averaging,Low Vision,fs,sigma_v,0.1371280281837243,Visual
+534,LV018,raw,Averaging,Low Vision,bci,sigma_v,0.354733777,Visual
+535,LV018,visible,Averaging,Low Vision,bci,sigma_v,0.354733777,Visual
+536,LV018,5,Averaging,Low Vision,mle,sigma_v,0.290686533,Visual
+537,LV018,10,Averaging,Low Vision,mle,sigma_v,0.298288258,Visual
+538,LV018,15,Averaging,Low Vision,mle,sigma_v,0.295865078,Visual
+539,LV019,raw,Averaging,Low Vision,mle,sigma_v,0.388586772,Visual
+540,LV019,visible,Averaging,Low Vision,mle,sigma_v,0.388547997,Visual
+541,LV019,invisible,Averaging,Low Vision,mle,sigma_v,0.605480395,Visual
+542,LV019,5,Averaging,Low Vision,mle,sigma_v,0.389450004,Visual
+543,LV019,10,Averaging,Low Vision,mle,sigma_v,0.37977599,Visual
+544,LV019,15,Averaging,Low Vision,mle,sigma_v,0.361594884,Visual
+545,LV020,raw,Matching,Low Vision,bci,sigma_v,0.638280891,Visual
+546,LV020,visible,Matching,Low Vision,bci,sigma_v,0.477478265,Visual
+547,LV020,5,Averaging,Low Vision,mle,sigma_v,0.540085264,Visual
+548,LV020,10,Averaging,Low Vision,mle,sigma_v,0.514105398,Visual
+549,LV020,15,Matching,Low Vision,bci,sigma_v,0.682971853,Visual
+550,LV021,raw,Averaging,Low Vision,fs,sigma_v,0.1856227309893258,Visual
+551,LV021,visible,Selection,Low Vision,bci,sigma_v,0.165377343,Visual
+552,LV021,invisible,Averaging,Low Vision,fs,sigma_v,0.1473331485072929,Visual
+553,LV021,5,Averaging,Low Vision,fs,sigma_v,0.1177389179659629,Visual
+554,LV021,10,Averaging,Low Vision,fs,sigma_v,0.206428391543292,Visual
+555,LV021,15,Averaging,Low Vision,fs,sigma_v,0.1448431642428523,Visual
+556,LV022,raw,Averaging,Low Vision,fs,sigma_v,0.1462723921640384,Visual
+557,LV022,visible,Selection,Low Vision,bci,sigma_v,0.114712984,Visual
+558,LV022,invisible,Averaging,Low Vision,fs,sigma_v,0.1474312065052222,Visual
+559,LV022,5,Averaging,Low Vision,fs,sigma_v,0.1463401718582897,Visual
+560,LV022,10,Averaging,Low Vision,fs,sigma_v,0.1479252007107298,Visual
+561,LV022,15,Averaging,Low Vision,fs,sigma_v,0.1497247559239498,Visual
+562,LV023,raw,Matching,Low Vision,bci,sigma_v,0.888117272,Visual
+563,LV023,visible,Averaging,Low Vision,mle,sigma_v,0.328691035,Visual
+564,LV023,invisible,Matching,Low Vision,bci,sigma_v,2.73453757,Visual
+565,LV023,5,Averaging,Low Vision,mle,sigma_v,0.352060247,Visual
+566,LV023,10,Averaging,Low Vision,bci,sigma_v,2.926910038,Visual
+567,LV023,15,Averaging,Low Vision,mle,sigma_v,0.339389727,Visual
+568,LV024,raw,Matching,Low Vision,bci,sigma_v,2.42762956,Visual
+569,LV024,visible,Matching,Low Vision,bci,sigma_v,1.989608519,Visual
+570,LV024,invisible,Averaging,Low Vision,bci,sigma_v,0.41032258,Visual
+571,LV024,5,Matching,Low Vision,bci,sigma_v,2.503338329,Visual
+572,LV024,10,Matching,Low Vision,bci,sigma_v,2.64389178,Visual
+573,LV024,15,Averaging,Low Vision,bci,sigma_v,2.080367695,Visual
+574,LV025,raw,Averaging,Low Vision,fs,sigma_v,0.2918896698427769,Visual
+575,LV025,visible,Averaging,Low Vision,bci,sigma_v,0.291058082,Visual
+576,LV025,invisible,Averaging,Low Vision,fs,sigma_v,0.1486815986753936,Visual
+577,LV025,5,Averaging,Low Vision,fs,sigma_v,0.383623781104359,Visual
+578,LV025,10,Averaging,Low Vision,fs,sigma_v,0.2166296514016956,Visual
+579,LV025,15,Averaging,Low Vision,fs,sigma_v,0.2301167565121524,Visual
+580,SV103,raw,Averaging,Control,bci,sigma_v,0.314170166,Visual
+581,SV103,visible,Averaging,Control,bci,sigma_v,0.314058427,Visual
+582,SV103,invisible,Averaging,Control,mle,sigma_v,0.483165337,Visual
+583,SV103,5,Averaging,Control,bci,sigma_v,0.331062032,Visual
+584,SV103,10,Averaging,Control,bci,sigma_v,0.339761769,Visual
+585,SV103,15,Averaging,Control,bci,sigma_v,0.31258259,Visual
+586,SV110,raw,Averaging,Control,bci,sigma_v,0.335728837,Visual
+587,SV110,visible,Averaging,Control,bci,sigma_v,0.335728837,Visual
+588,SV110,5,Averaging,Control,mle,sigma_v,0.293957621,Visual
+589,SV110,10,Averaging,Control,mle,sigma_v,0.280525887,Visual
+590,SV110,15,Averaging,Control,mle,sigma_v,0.280108534,Visual
+591,SV111,raw,Averaging,Control,mle,sigma_v,0.420333911,Visual
+592,SV111,visible,Averaging,Control,mle,sigma_v,0.419594273,Visual
+593,SV111,invisible,Averaging,Control,mle,sigma_v,0.94464012,Visual
+594,SV111,5,Averaging,Control,mle,sigma_v,0.385191009,Visual
+595,SV111,10,Matching,Control,bci,sigma_v,0.623728919,Visual
+596,SV111,15,Averaging,Control,mle,sigma_v,0.357901837,Visual
+597,SV113,raw,Averaging,Control,mle,sigma_v,0.388561883,Visual
+598,SV113,visible,Averaging,Control,mle,sigma_v,0.389380489,Visual
+599,SV113,invisible,Averaging,Control,mle,sigma_v,0.227376675,Visual
+600,SV113,5,Averaging,Control,mle,sigma_v,0.417567838,Visual
+601,SV113,10,Averaging,Control,mle,sigma_v,0.388555337,Visual
+602,SV113,15,Averaging,Control,mle,sigma_v,0.361003403,Visual
+603,SV119,raw,Averaging,Control,bci,sigma_v,0.282607067,Visual
+604,SV119,visible,Averaging,Control,bci,sigma_v,0.281100269,Visual
+605,SV119,invisible,Averaging,Control,mle,sigma_v,0.234618116,Visual
+606,SV119,5,Averaging,Control,bci,sigma_v,0.269785444,Visual
+607,SV119,10,Averaging,Control,bci,sigma_v,0.262110134,Visual
+608,SV119,15,Averaging,Control,bci,sigma_v,0.261902565,Visual
+609,SV201,raw,Averaging,Control,bci,sigma_v,0.3363540306854824,Visual
+610,SV201,visible,Averaging,Control,bci,sigma_v,0.3363540306854824,Visual
+611,SV201,5,Averaging,Control,bci,sigma_v,0.3293388138975463,Visual
+612,SV201,10,Averaging,Control,bci,sigma_v,0.3293388138975463,Visual
+613,SV201,15,Averaging,Control,mle,sigma_v,0.2751900284220158,Visual
+614,SV202,raw,Averaging,Control,fs,sigma_v,0.1177491107215006,Visual
+615,SV202,visible,Averaging,Control,fs,sigma_v,0.1177491107215006,Visual
+616,SV202,5,Averaging,Control,fs,sigma_v,0.137128028183678,Visual
+617,SV202,10,Averaging,Control,fs,sigma_v,0.1177588969119183,Visual
+618,SV202,15,Averaging,Control,fs,sigma_v,0.117758896911919,Visual
+619,SV203,raw,Averaging,Control,mle,sigma_v,0.4007494070720362,Visual
+620,SV203,visible,Averaging,Control,mle,sigma_v,0.4007494070720362,Visual
+621,SV203,5,Averaging,Control,mle,sigma_v,0.3946549203389883,Visual
+622,SV203,10,Averaging,Control,mle,sigma_v,0.400749407072119,Visual
+623,SV203,15,Averaging,Control,mle,sigma_v,0.4132454521268784,Visual
+624,SV204,raw,Averaging,Control,mle,sigma_v,0.4066093495944773,Visual
+625,SV204,visible,Averaging,Control,mle,sigma_v,0.4066093495944773,Visual
+626,SV204,5,Averaging,Control,mle,sigma_v,0.4132454521268792,Visual
+627,SV204,10,Averaging,Control,mle,sigma_v,0.4132454521268774,Visual
+628,SV204,15,Averaging,Control,mle,sigma_v,0.4130370943204304,Visual
+629,SV205,raw,Averaging,Control,bci,sigma_v,0.2505894586382389,Visual
+630,SV205,visible,Averaging,Control,bci,sigma_v,0.2505894586382389,Visual
+631,SV205,5,Averaging,Control,fs,sigma_v,0.2725848622340078,Visual
+632,SV205,10,Averaging,Control,bci,sigma_v,0.2506294956389793,Visual
+633,SV205,15,Averaging,Control,bci,sigma_v,0.2516572200918879,Visual
+634,SV206,raw,Matching,Control,bci,sigma_v,0.7196734717446676,Visual
+635,SV206,visible,Matching,Control,bci,sigma_v,0.7196734717446676,Visual
+636,SV206,5,Matching,Control,bci,sigma_v,0.62140964248671,Visual
+637,SV206,10,Averaging,Control,fs,sigma_v,0.890791334980785,Visual
+638,SV206,15,Matching,Control,bci,sigma_v,0.5355591018983931,Visual
+639,SV207,raw,Averaging,Control,fs,sigma_v,0.1951711426976252,Visual
+640,SV207,visible,Averaging,Control,fs,sigma_v,0.1951711426976252,Visual
+641,SV207,5,Averaging,Control,fs,sigma_v,0.1471025515383856,Visual
+642,SV207,10,Averaging,Control,fs,sigma_v,0.2045061820014894,Visual
+643,SV207,15,Averaging,Control,fs,sigma_v,0.205672174704331,Visual
+644,SV208,raw,Averaging,Control,mle,sigma_v,0.3262759227172874,Visual
+645,SV208,visible,Averaging,Control,mle,sigma_v,0.3262759227172874,Visual
+646,SV208,5,Averaging,Control,mle,sigma_v,0.3258598248768138,Visual
+647,SV208,10,Averaging,Control,mle,sigma_v,0.3367851049228507,Visual
+648,SV208,15,Averaging,Control,mle,sigma_v,0.2989701103660702,Visual
+649,SV209,raw,Averaging,Control,mle,sigma_v,0.3852863387496713,Visual
+650,SV209,visible,Averaging,Control,mle,sigma_v,0.3852863387496713,Visual
+651,SV209,5,Averaging,Control,mle,sigma_v,0.383783563697179,Visual
+652,SV209,10,Averaging,Control,mle,sigma_v,0.3886323011296625,Visual
+653,SV209,15,Averaging,Control,mle,sigma_v,0.3882231410982762,Visual
+654,SV210,raw,Averaging,Control,mle,sigma_v,0.4131442409024906,Visual
+655,SV210,visible,Averaging,Control,mle,sigma_v,0.4131442409024906,Visual
+656,SV210,5,Averaging,Control,mle,sigma_v,0.4132454521268792,Visual
+657,SV210,10,Averaging,Control,mle,sigma_v,0.4132454521268784,Visual
+658,SV210,15,Averaging,Control,mle,sigma_v,0.40061032874584,Visual
+659,SV211,raw,Averaging,Control,bci,sigma_v,0.3050802531872841,Visual
+660,SV211,visible,Averaging,Control,bci,sigma_v,0.3050802531872841,Visual
+661,SV211,5,Averaging,Control,bci,sigma_v,0.3036839529972395,Visual
+662,SV211,10,Averaging,Control,bci,sigma_v,0.2974209150383811,Visual
+663,SV211,15,Averaging,Control,bci,sigma_v,0.3111909470158521,Visual
+664,SV212,raw,Averaging,Control,fs,sigma_v,0.2337212219180773,Visual
+665,SV212,visible,Averaging,Control,fs,sigma_v,0.2337212219180773,Visual
+666,SV212,5,Averaging,Control,fs,sigma_v,0.2314964185283975,Visual
+667,SV212,10,Averaging,Control,fs,sigma_v,0.2589511253768211,Visual
+668,SV212,15,Averaging,Control,fs,sigma_v,0.2314755720459343,Visual
+669,SV213,raw,Averaging,Control,mle,sigma_v,0.3394378763335837,Visual
+670,SV213,visible,Averaging,Control,mle,sigma_v,0.3394378763335837,Visual
+671,SV213,5,Averaging,Control,mle,sigma_v,0.339227033384929,Visual
+672,SV213,10,Averaging,Control,mle,sigma_v,0.3399308175397738,Visual
+673,SV213,15,Averaging,Control,mle,sigma_v,0.3393544588435732,Visual
+674,SV214,raw,Averaging,Control,fs,sigma_v,0.2319129281435584,Visual
+675,SV214,visible,Averaging,Control,fs,sigma_v,0.2319129281435584,Visual
+676,SV214,5,Averaging,Control,fs,sigma_v,0.2318780335252018,Visual
+677,SV214,10,Averaging,Control,fs,sigma_v,0.2210611153498071,Visual
+678,SV214,15,Averaging,Control,fs,sigma_v,0.2495733003672402,Visual
+679,SV215,raw,Averaging,Control,bci,sigma_v,0.3548023195107812,Visual
+680,SV215,visible,Averaging,Control,mle,sigma_v,0.2964712131583958,Visual
+681,SV215,invisible,Averaging,Control,mle,sigma_v,0.9446401201223364,Visual
+682,SV215,5,Averaging,Control,mle,sigma_v,0.2939536783919957,Visual
+683,SV215,10,Averaging,Control,mle,sigma_v,0.295918472839211,Visual
+684,SV215,15,Averaging,Control,mle,sigma_v,0.3073713501029948,Visual
+685,SV216,raw,Averaging,Control,bci,sigma_v,0.3071420965902944,Visual
+686,SV216,visible,Averaging,Control,bci,sigma_v,0.3071420965902944,Visual
+687,SV216,5,Averaging,Control,bci,sigma_v,0.3121503940821224,Visual
+688,SV216,10,Averaging,Control,bci,sigma_v,0.3268545083150503,Visual
+689,SV216,15,Averaging,Control,bci,sigma_v,0.3234967866166752,Visual
