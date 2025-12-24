@@ -1,4 +1,4 @@
-# illusory-flash-mapping
+# illusory-mapping
 
 [![DOI](https://zenodo.org/badge/1122453263.svg)](https://doi.org/10.5281/zenodo.18049128)  
 Data and code accompanying the paper "Did you see the sound? A Bayesian Perspective on Crossmodal Perception in Low Vision" by Ailene Chan, N. R. B. Stiles, C. A. Levitan, A. R. Tanguay, and S. Shimojo.
@@ -18,11 +18,11 @@ Data and code accompanying the paper "Did you see the sound? A Bayesian Perspect
 #### Installation
 1. Clone this repository:  
 ```
-    git clone https://github.com/chanyca/illusory-flash-mapping.git
+    git clone https://github.com/chanyca/illusory-mapping.git
 ```
 2. Navigate to the project directory in terminal:
 ```
-    cd('illusory-flash-mapping')
+    cd('illusory-mapping')
 ```
 3. Set up environment
 ```
