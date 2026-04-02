@@ -56,9 +56,13 @@ def simulateVV(paras, n, data, biOnly=0,  strategy='ave' , fitType='dif',
     # Import Data into Python
     dtl = data[0,:]
     cols = len(dtl)
-    responses = data[:, [2, 3]]
+    if cols == 3: 
+        responses = data[:, 2]
+    else:
+        responses = data[:, [2, 3]]
     stimuli = data[:, [0, 1]]
     N = np.max(stimuli) + 1
+    # print(N)
     modelprop = []
     dataprop = []
     plt.clf()
@@ -395,30 +399,6 @@ def simulateVV(paras, n, data, biOnly=0,  strategy='ave' , fitType='dif',
     print("Explainable variance, r2:")
     r_square = 1 - var_of_diff / var_of_data
     print(r_square)
-   
-    '''
-    #Plot
-    fig, axs = plt.subplots(2, 2, figsize=(8, 8))
-
-    axs[0, 0].imshow(dataprop[0, :, :])
-    axs[0, 0].set_title('Experimental Data, cond V resp')
-
-    axs[0, 1].imshow(dataprop[1, :, :])
-    axs[0, 1].set_title('Experimental Data, cond A resp')
-
-    axs[1, 0].imshow(modelprop[0, :, :])
-    axs[1, 0].set_title('Model, cond V resp')
-
-    axs[1, 1].imshow(modelprop[1, :, :])
-    axs[1, 1].set_title('Model, cond A resp')
-    
-    plt.savefig("output2.png") 
-    plt.figure()
-    
-    plt.figure()
-            
-    plt.show()
-    '''
     
     #print (loglike)
     
@@ -432,9 +412,6 @@ def simulateVV(paras, n, data, biOnly=0,  strategy='ave' , fitType='dif',
     error += 10000000 * int((sigmaU + sigmaD) < 0)
     
     np.random.set_state(s1)
-    
-    #np.savetxt('array10.txt', dataprop[1, :, :], fmt='%.6f')
-    #np.savetxt('array13.txt', trialType, fmt='%.6f')
     
    
     return error, modelprop, dataprop, responsesSim, r_square #, real, sigma_like, noisy, PCDU, Sc

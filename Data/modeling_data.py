@@ -2,7 +2,34 @@ import numpy as np
 import pandas as pd
 import os
 import re
+import argparse
 
+#################################################
+### Command line arguments ######################
+#################################################
+def str2bool(v):
+    if isinstance(v, bool):
+        return v
+    if v.lower() in ('yes', 'true', 't', 'y', '1'):
+        return True
+    elif v.lower() in ('no', 'false', 'f', 'n', '0'):
+        return False
+    else:
+        raise argparse.ArgumentTypeError('Boolean value expected.')
+
+parser = argparse.ArgumentParser(description='Prep modeling data')
+parser.add_argument('-sigma_a',      type=float,      default=0.2)
+
+args = parser.parse_args()
+
+sigma_a = args.sigma_a
+
+print("Generating modeling data files...")
+print(f"sigma_a value fixed at {sigma_a}")
+
+#################################################
+### Prep and pre-defined variables ##############
+#################################################
 modeling_path = 'csv/modeling/data/'
 if not os.path.exists(modeling_path):
     os.makedirs(modeling_path)
@@ -26,11 +53,16 @@ ordered_columns = ['n_flash', 'n_beep', 'response', 'response_beep']
 degrees = [5, 10, 15]
 visibility = ['Visible', 'Invisible']
 
+def generate_bayesian_pseudo_beep(n_beep, sigma_a=0.2):
+    x_a = np.random.normal(loc=n_beep, scale=sigma_a)
+    res = int(np.clip(np.round(x_a), 0, 3))
+    return res
+
 for subject_id in subject_ids:
     df = pd.read_csv(f'csv/{subject_id}.csv')
     df_subset = df.drop(columns_to_drop, axis=1)
-    # for now, treat n_beep as response_beep
-    df_subset['response_beep'] = df_subset['n_beep']
+    # use sigma_a to generate simulated response
+    df_subset['response_beep'] = df_subset['n_beep'].apply(generate_bayesian_pseudo_beep, sigma_a=sigma_a)
 
     # save raw data, regardless of eccentricity (degree) and visibility
     df_all = df_subset.copy()
