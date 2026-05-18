@@ -21,11 +21,13 @@ def str2bool(v):
         raise argparse.ArgumentTypeError('Boolean value expected.')
 
 parser = argparse.ArgumentParser(description='Prep modeling data')
-parser.add_argument('-sigma_a',      type=float,      default=0.2)
+parser.add_argument('-sigma_a', type=float, default=0.2)
+parser.add_argument('-mu_p', type=str2bool, nargs='?', const=True, default=False, help='Whether to fit mu_p as a free parameter (default: False, i.e., fix mu_p at 1.5)')
 
 args = parser.parse_args()
 
 sigma_a = args.sigma_a
+fit_mup = args.mu_p
 
 
 #################################################
@@ -36,20 +38,28 @@ os.system(f"python modeling_data.py -sigma_a {sigma_a}")
 #################################################
 ### Prep and pre-defined variables ##############
 #################################################
-output_dir = f'csv/modeling/outputs/sigma_a_p{int(sigma_a*10)}'
+if fit_mup:
+    output_dir = f'csv/modeling/outputs/free_mup/sigma_a_p{int(sigma_a*10)}'
+    es_mup = 1
+    print("mu_p will be fit as a free parameter.")
+else:
+    output_dir = f'csv/modeling/outputs/sigma_a_p{int(sigma_a*10)}'
+    es_mup = 0
+    print("mu_p will be fixed at 1.5.")
+
 os.makedirs(output_dir, exist_ok=True)
 
-bci_refit = False
-ff_refit  = False
-fs_refit  = False
-mle_refit = False
+bci_refit = True
+ff_refit  = True
+fs_refit  = True
+mle_refit = True
 
 es_para_dict = {
-    #       pcommon, sigma_v, sigma_a, sigma_p, mu_p, dU, dD
-    'bci': [1,       1,       0,       1,       0,    0,  0],
-    'ff':  [0,       1,       0,       1,       0,    0,  0], 
-    'fs':  [0,       1,       0,       1,       0,    0,  0], 
-    'mle': [0,       1,       0,       0,       0,    0,  0], 
+    #       pcommon, sigma_v, sigma_a, sigma_p, mu_p,       dU, dD
+    'bci': [1,       1,       0,       1,       es_mup,    0,  0],
+    'ff':  [0,       1,       0,       1,       es_mup,    0,  0], 
+    'fs':  [0,       1,       0,       1,       es_mup,    0,  0], 
+    'mle': [0,       1,       0,       0,       0,         0,  0], 
 }
 
 # fix mu_p at 1.5

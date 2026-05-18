@@ -4,6 +4,7 @@
 # =====================================
 # Updates
 # Modified simulateVV according to BCIboxGUI/simulateVV_GUI (source code v0.1.0.6, not the one on GitHub) for bug fixes
+# Removed stimulus floor (minimum 1) for calculating model probabilities, to allow for zero stimulus conditions (lines 264, 278, 290)
 # ============================================
 
 # In[ ]:
@@ -260,7 +261,9 @@ def simulateVV(paras, n, data, biOnly=0,  strategy='ave' , fitType='dif',
     '''
     for i in range(2):
         for j in range(0, int(np.max(trialType).item())+1):
-            k1 = np.minimum(np.maximum(1, np.round(responsesSim[np.where(trialTypeSim==j),i]).astype(int)), N-1)
+            k1 = np.minimum(np.maximum(0, np.round(responsesSim[np.where(trialTypeSim==j),i]).astype(int)), N-1)
+            if i == 0 and conditions[j, 1] == 0:
+                k1 = np.clip(k1, 0, 1)
             k1 = k1.ravel().astype(int)
             counts = np.bincount(k1, minlength=int(N)) 
             modelprop[i, j, :] = counts
@@ -272,17 +275,19 @@ def simulateVV(paras, n, data, biOnly=0,  strategy='ave' , fitType='dif',
                 counts2 = np.bincount(k2, minlength=int(N)) 
                 dataprop[0,j,:] = counts2 #np.pad(counts2, (0, 0), mode='constant')
 
-                dataprop[0, bimodalList, 0] = 0
+                # dataprop[0, bimodalList, 0] = 0
                 dataprop[0,j,:] /= (1e-10+np.sum(np.squeeze(dataprop[0,j,:])))
                 
             else:
 
                 k2 = np.minimum(np.maximum(0, np.round(responses[np.where(trialType==j),i]).astype(int)), N-1)
+                if i == 0 and conditions[j, 1] == 0:
+                    k2 = np.clip(k2, 0, 1)
                 k2 = k2.ravel().astype(int)
                 counts2 = np.bincount(k2, minlength=int(N)) 
                 dataprop[i,j,:] = counts2 #np.pad(counts2, (0, 0), mode='constant')
 
-                dataprop[i, bimodalList, 0] = 0
+                # dataprop[i, bimodalList, 0] = 0
                 dataprop[i,j,:] /= (1e-10+np.sum(np.squeeze(dataprop[i,j,:])))
                 
             modelprop[i,j,:] /= (1e-10+np.sum(np.squeeze(modelprop[i,j,:])))

@@ -23,10 +23,12 @@ def get_subject_ids_for_beep():
             
     return sorted(list(subject_ids))
 
-def find_best_models(model, sigma_a=0.2):
+def find_best_models(model, sigma_a=0.2, mup=False):
     # find best model for each subject based on BIC
-
-    output_dir = f'csv/modeling/outputs/sigma_a_p{int(sigma_a*10)}/'
+    if mup:
+        output_dir = f'csv/modeling/outputs/free_mup/sigma_a_p{int(sigma_a*10)}/'
+    else:
+        output_dir = f'csv/modeling/outputs/sigma_a_p{int(sigma_a*10)}/'
 
     results_df = pd.read_csv(f'{output_dir}{model}_fitting_results.csv')
     parameter_columns = ['pcommon', 'sigma_p', 'mu_p', 'sigma_v', 'bic', 'r2']
@@ -61,18 +63,21 @@ def find_best_models(model, sigma_a=0.2):
 
     return best_models_df
 
-def get_best_models(model, sigma_a=0.2):
-    output_dir = f'csv/modeling/outputs/sigma_a_p{int(sigma_a*10)}/'
+def get_best_models(model, sigma_a=0.2, mup=False):
+    if mup:
+        output_dir = f'csv/modeling/outputs/free_mup/sigma_a_p{int(sigma_a*10)}/'
+    else:
+        output_dir = f'csv/modeling/outputs/sigma_a_p{int(sigma_a*10)}/'
     df = pd.read_csv(f'{output_dir}{model}_best_models.csv')
     return df
 
 
-def print_parameters(model, sigma_a=0.2, loc='visible'):
+def print_parameters(model, sigma_a=0.2, loc='visible', mup=False):
 
-    df = get_best_models(model, sigma_a)
+    df = get_best_models(model, sigma_a, mup)
     df = df[df['location']==loc].copy()
 
-    PARAMS = ["pcommon", "sigma_v", "sigma_p"]
+    PARAMS = ["pcommon", "sigma_v", "sigma_p", "mu_p"]
     
     group_cols = ['group']
 
@@ -94,8 +99,8 @@ def print_parameters(model, sigma_a=0.2, loc='visible'):
     
     return returned_df.reset_index()
 
-def print_strategy(model, sigma_a=0.2, loc='visible'):
-    df = get_best_models(model, sigma_a)
+def print_strategy(model, sigma_a=0.2, loc='visible', mup=False):
+    df = get_best_models(model, sigma_a, mup)
     df = df[df['location']==loc].copy()
 
     counts = (
@@ -107,3 +112,13 @@ def print_strategy(model, sigma_a=0.2, loc='visible'):
     )
 
     print(counts)
+
+def print_r2(model, sigma_a=0.2, loc='visible', mup=False):
+    df = get_best_models(model, sigma_a, mup)
+    df = df[df['location']==loc].copy()
+
+    r2 = (
+        df.groupby('group')['r2'].agg(['mean', 'sem']).round(2)
+    )
+
+    print(r2)

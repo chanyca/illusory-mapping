@@ -209,7 +209,7 @@ class Plots:
             ax.set_xlabel('Right Eye', fontsize=12) if eye=='R' and task=='bdf' else None
 
     def polar_schematics(self, ax, marker_size=100, color_code=False):
-        color_map = {5: '#f7acbf', 10: '#7570b3', 15: '#1b9e77'} # Colorblind-safe palette  
+        color_map = {5: '#f7acbf', 10: '#7570b3', 15: '#83c5be'} # Colorblind-safe palette  
         if color_code:            
             for r, color in color_map.items():
                 mask = self.r_array == r
@@ -222,6 +222,59 @@ class Plots:
                     label=f"{r}°" # This label is used by the legend
                 )
             ax.legend(title="Eccentricity", bbox_to_anchor=(0, 0.5))
+        else:
+            ax.scatter(self.theta_array, self.r_array, s=marker_size, color='black', edgecolors='black', alpha=1)
+            # Add custom annotations for the y-tick labels at 5, 10, and 15 degrees along the 0 degree axis
+            radii = [5, 10, 15]
+            for radius in radii:
+                ax.text(-0.18, radius+1, f"{radius}°", ha='left', va='top', fontsize=10, weight='bold', 
+                        transform=ax.transData, clip_on=True) 
+
+        ax.grid(False)
+        ax.spines['polar'].set_visible(False)
+        ax.set_xticklabels([])
+        ax.set_ylim(0, 18)
+        ax.set_yticklabels([])
+
+    def polar_visibility(self, ax, marker_size=100, color_code=False):
+        if color_code:            
+            plotted_labels = set()
+            
+            # 5 degrees: all high visibility
+            mask_5 = self.r_array == 5
+            ax.scatter(self.theta_array[mask_5], self.r_array[mask_5], s=marker_size, c='#f6c8b6', label='High')
+            plotted_labels.add('High')
+            
+            # 10 degrees: 50% random between high and low
+            mask_10 = self.r_array == 10
+            indices_10 = np.where(mask_10)[0]
+            n_points_10 = len(indices_10)
+            random_colors = np.random.choice(['#f6c8b6', '#000000'], size=n_points_10, p=[0.5, 0.5])
+            
+            # Plot high visibility points at 10 degrees
+            high_mask_10 = random_colors == '#f6c8b6'
+            if np.any(high_mask_10):
+                high_indices_10 = indices_10[high_mask_10]
+                ax.scatter(self.theta_array[high_indices_10], self.r_array[high_indices_10], s=marker_size, c='#f6c8b6')
+            
+            # Plot low visibility points at 10 degrees
+            low_mask_10 = random_colors == '#000000'
+            if np.any(low_mask_10):
+                low_indices_10 = indices_10[low_mask_10]
+                if 'Low' not in plotted_labels:
+                    ax.scatter(self.theta_array[low_indices_10], self.r_array[low_indices_10], s=marker_size, c='#000000', label='Low')
+                    plotted_labels.add('Low')
+                else:
+                    ax.scatter(self.theta_array[low_indices_10], self.r_array[low_indices_10], s=marker_size, c='#000000')
+            
+            # 15 degrees: all low visibility
+            mask_15 = self.r_array == 15
+            if 'Low' not in plotted_labels:
+                ax.scatter(self.theta_array[mask_15], self.r_array[mask_15], s=marker_size, c='#000000', label='Low')
+            else:
+                ax.scatter(self.theta_array[mask_15], self.r_array[mask_15], s=marker_size, c='#000000')
+            
+            ax.legend(title="Visibility", bbox_to_anchor=(0, 0.5))
         else:
             ax.scatter(self.theta_array, self.r_array, s=marker_size, color='black', edgecolors='black', alpha=1)
             # Add custom annotations for the y-tick labels at 5, 10, and 15 degrees along the 0 degree axis
@@ -261,8 +314,8 @@ class Plots:
             beep_on = (time >= start_time) & (time < end_time)
             y_beep[beep_on] = height
 
-        ax.step(time, y_flash + 3, label='Flash', color='#9b72cf')
-        ax.step(time, y_beep, label='Beep', color='#ffc60a')
+        ax.step(time, y_flash + 3, label='Flash', color='#b3a3cd', lw=2)
+        ax.step(time, y_beep, label='Beep', color='#b3d7bd', lw=2)
         ax.set_ylim([-1, 6])
         ax.set_yticks([])
         ax.set_xlabel('Time (ms)') if n_beep>0 else None
