@@ -36,27 +36,14 @@ Data and code accompanying the paper "Did you see the sound? A Bayesian Perspect
 `runExpt_ad`: Main script to run Beep Detection Task.  
 
 ### Data analysis + plotting
-BCI model fitting and analysis: 
+BCI model fitting: 
 - Model fitting: `Data/bci_model_fitting.ipynb`
-- Analysis: `Data/bci_analysis.ipynb`
 
 To reproduce each figure:  
-- Figure 1:
-  - `Data/figure_1.ipynb`
-- Figure 2:
-  - `Data/figure_2.ipynb`
-- Figure 3:
-  - `Data/figure_3.ipynb`
-- Figure 4:
-  - `Data/figure_4.ipynb`
-- Figure 5:
-  - `Data/figure_5.ipynb`
-- Figure S1:
-  - `Data/figure_s1.ipynb`
-- Figure S2:
-  - `Data/figure_s2.ipynb`
-- Figure S3:
-  - `Data/figure_s3.ipynb`
+- Figure _N_:
+  - `Data/figure_{N}.ipynb`
+- Supplementary Figure _N_:
+  - `Data/figure_s{N}.ipynb`
 ---
 ### License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
