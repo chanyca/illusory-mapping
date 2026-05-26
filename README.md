@@ -1,7 +1,7 @@
 # illusory-mapping
 
 [![DOI](https://zenodo.org/badge/1122453263.svg)](https://doi.org/10.5281/zenodo.18049128)  
-Data and code accompanying the paper "Did you see the sound? A Bayesian Perspective on Crossmodal Perception in Low Vision" by Ailene Chan, N. R. B. Stiles, C. A. Levitan, A. R. Tanguay, and S. Shimojo.
+Data and code accompanying the paper "Did you see the sound? A Bayesian Assessment on Crossmodal Perception in Low Vision" by Ailene Chan, N. R. B. Stiles, C. A. Levitan, A. R. Tanguay, and S. Shimojo.
 ---
 ### Getting Started
 #### Prerequisites
